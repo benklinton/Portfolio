@@ -1,0 +1,9 @@
+.masthead {
+    height: 100vh;
+    min-height: 500px;
+    background-size: cover;
+    background-image: url(./images/Mountain.jpg);
+    background-color: rgb(225, 240, 245);
+    background-position: center;
+    background-repeat: repeat-x;
+}
