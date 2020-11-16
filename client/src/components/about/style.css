@@ -1,0 +1,33 @@
+.about-section {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    background-color: #b2b7be;
+    
+}
+
+.about-header {
+    margin-bottom: 1.5rem;
+    font-size: 3rem;
+    line-height: 2.5rem;
+    color: #ffffff;
+}
+
+hr.rounded {
+    border-top: 5px solid #ffffff;
+    border-radius: 8px;
+    max-width: 14rem;
+}
+
+.img {
+    padding-top: 1.5rem;
+    display: block;
+    margin: auto;
+}
+
+.about-text {
+    padding-top: 1rem;
+    display: block;
+    margin: auto;
+}
