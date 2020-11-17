@@ -10,8 +10,11 @@ function Header() {
             <Container className=" h-100">
                 <div className="row h-100 align-items-center">
                     <div className="col-12 text-center">
-                        <h1 className="font-weight-heavy"> Ben Linton </h1>
-                        <p className="lead">Full Stack Web Developer</p>
+                        <h1 className="masthead-heading text-uppercase mb-0"> Ben Linton </h1>
+                        <div className="divider-custom divider-light">
+                    <div className="divider-custom-line"></div>
+                    </div>
+                        <p className="masthead-subheading font-weight-light mb-0">Full Stack Web Developer</p>
                     </div>
                 </div>
                 <Snowfall color="whitesmoke"/>
