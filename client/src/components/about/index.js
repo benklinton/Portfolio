@@ -7,7 +7,7 @@ import Row from 'react-bootstrap/Row';
 function About() {
     return (
         <>
-            <section className='page-section mb-0'>     
+            <section className='page-section bg-about mb-0'>     
             <Container fluid>
                 <h2 className="page-section-heading text-center text-uppercase text-white">About</h2>
                 <div className="divider-custom divider-light">

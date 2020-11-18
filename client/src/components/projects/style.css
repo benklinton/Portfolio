@@ -1,24 +1,7 @@
-.projects-section {
-    padding-top: 8rem;
-    padding-bottom: 8rem;
-    padding-left: 8rem;
-    padding-right: 8rem;
-    background-color: blue;
-    
-}
-
-.projects-header {
-    margin-bottom: 1.5rem;
-    font-size: 3rem;
-    line-height: 2.5rem;
-    color: #000000;
-}
-
 .flip-card {
     background-color: transparent;
     width: 300px;
     height: 200px;
-    border: 1px solid #f1f1f1;
     perspective: 1000px; /* Remove this if you don't want the 3D effect */
   }
 
