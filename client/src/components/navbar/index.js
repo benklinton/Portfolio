@@ -30,7 +30,7 @@ function Navigation() {
                   <Nav.Link href="/contact">Contact</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link href="/resume">Resume</Nav.Link>
+                  <Nav.Link href="/resume" target="_blank">Resume</Nav.Link>
                 </Nav.Item>
               </Router>
             </ul>
