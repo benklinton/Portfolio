@@ -4,6 +4,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Form from 'react-bootstrap/Form';
+import Button from 'react-bootstrap/Button';
 
 function Contact() {
     return (
@@ -34,6 +35,7 @@ function Contact() {
                         <Form.Control type='text' as='textarea' rows={5} placeholder='Message'/>
                     </Form.Group>
                     </Form>
+                    <Button className='mt-4'variant="outline-info">Submit</Button>
                     </Col>
                     </Row>
                 </Container>
