@@ -85,7 +85,7 @@ class Contact extends React.Component {
                                         required value={this.state.message} onChange={this.onMsgChange.bind(this)} />
                                     </Form.Group>
                                 </Form>
-                                <Button className='mt-4' variant="outline-info">Submit</Button>
+                                <Button className='mt-4' type='submit' variant="outline-info">Submit</Button>
                             </Col>
                         </Row>
                     </Container>
