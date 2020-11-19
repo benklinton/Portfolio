@@ -1,19 +1,22 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import Home from './pages/Home';
-import Resume from './pages/Resume';
+import Navigation from './components/navbar';
+import Header from './components/header';
+import About from './components/about';
+import Projects from './components/projects';
+import Contact from './components/contact';
+import Footer from './components/footer';
 
 function App() {
-  return (
-    <>
-    <Router>
-      <Switch>
-        <Route exact path = '/' component={Home}/>
-        <Route exact path = '/resume' component={Resume}/>
-      </Switch>
-    </Router>
-  </>
-  );
+    return(
+        <>
+        <Navigation/>
+        <Header/>
+        <About/>
+        <Projects/>
+        <Contact/>
+        <Footer/>
+        </>
+    )
 }
 
 export default App;

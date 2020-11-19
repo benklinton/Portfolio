@@ -19,18 +19,18 @@ function Navigation() {
           <Navbar.Collapse id="navbarResponsive">
             <ul className="navbar-nav ml-auto">
               <Nav.Item>
-                <Nav.Link href="/">Home
+                <Nav.Link href="#about">About
                     </Nav.Link>
               </Nav.Item>
               <Router>
                 <Nav.Item>
-                  <Nav.Link href="/projects">Projects</Nav.Link>
+                  <Nav.Link href="#projects">Projects</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link href="/contact">Contact</Nav.Link>
+                  <Nav.Link href="#contact">Contact</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link href="/resume" target="_blank">Resume</Nav.Link>
+                  <Nav.Link href="./assets/Resume.pdf" target="_blank">Resume</Nav.Link>
                 </Nav.Item>
               </Router>
             </ul>
