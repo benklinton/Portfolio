@@ -30,5 +30,10 @@
 }
 
 .bg-about {
-  background-color: #b2b7be;
+  /* background-color: #839b97; */
+  background-color: #cecece;
+}
+
+.text-color {
+  color: #6a7e7a;
 }

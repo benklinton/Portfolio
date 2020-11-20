@@ -9,7 +9,7 @@ function About() {
         <>
             <section className='page-section bg-about mb-0'>     
             <Container fluid>
-                <h2 id='about' className="page-section-heading text-center text-uppercase text-white">About</h2>
+                <h2 id='about' className="page-section-heading text-center text-uppercase text-color">About</h2>
                 <div className="divider-custom divider-light">
                     <div className="divider-custom-line"></div>
                 </div>
