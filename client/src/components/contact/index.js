@@ -38,18 +38,19 @@ class Contact extends React.Component {
             url: '/send',
             data: this.state
         }).then((response) => {
-            if (response.data.status === 'success') {
-                alert('Message Sent');
-                this.resetForm()
-            } else if (response.data.status === 'fail') {
-                alert('Message failed, please try again')
+            if (response.data.status === 'sucess') {
+                alert('Message Sent')
+                this.resetForm();
+            }
+            else {
+                alert('Message not sent, please try again')
             }
         })
 
     }
 
     resetForm() {
-        this.setState({ name: '', email: '', subject: '', message: '' })
+        this.setState({ name: '', email: '', subject: '', message: '' });
     }
 
     render() {
@@ -66,26 +67,26 @@ class Contact extends React.Component {
                                 <Form onSubmit={this.submitEmail.bind(this)} method="POST">
                                     <Form.Group className="form-group floating-label-form-group mb-0 pb-2">
                                         <Form.Label>Name</Form.Label>
-                                        <Form.Control type='text' placeholder='Name' 
-                                        required value={this.state.name} onChange={this.onNameChange.bind(this)} />
+                                        <Form.Control type='text' placeholder='Name'
+                                            required value={this.state.name} onChange={this.onNameChange.bind(this)} />
                                     </Form.Group>
                                     <Form.Group className="form-group floating-label-form-group mb-0 pb-2">
                                         <Form.Label>Email</Form.Label>
                                         <Form.Control type='email' placeholder='Email Address'
-                                        required value={this.state.email} onChange={this.onEmailChange.bind(this)} />
+                                            required value={this.state.email} onChange={this.onEmailChange.bind(this)} />
                                     </Form.Group>
                                     <Form.Group className="form-group floating-label-form-group mb-0 pb-2">
                                         <Form.Label>Subject</Form.Label>
                                         <Form.Control type='text' placeholder='Subject'
-                                        required value={this.state.subject} onChange={this.onSubjectChange.bind(this)} />
+                                            required value={this.state.subject} onChange={this.onSubjectChange.bind(this)} />
                                     </Form.Group>
                                     <Form.Group className="form-group floating-label-form-group mb-0 pb-2">
                                         <Form.Label>Message</Form.Label>
                                         <Form.Control type='text' as='textarea' rows={5} placeholder='Message'
-                                        required value={this.state.message} onChange={this.onMsgChange.bind(this)} />
+                                            required value={this.state.message} onChange={this.onMsgChange.bind(this)} />
                                     </Form.Group>
+                                    <Button className='mt-4' type='submit' variant="outline-info">Submit</Button>
                                 </Form>
-                                <Button className='mt-4' type='submit' variant="outline-info">Submit</Button>
                             </Col>
                         </Row>
                     </Container>
@@ -94,5 +95,4 @@ class Contact extends React.Component {
         )
     }
 }
-
 export default Contact;

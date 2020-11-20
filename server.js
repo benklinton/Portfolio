@@ -41,7 +41,7 @@ app.post('/send', (req, res) => {
     var email = req.body.email
     var subject = req.body.subject
     var message = req.body.message
-    var content = 'name ${name} \n email: ${email} \n message: ${message}'
+    var content = `name: ${name} \n email: ${email}  \n message: ${message} `
 
     var mail = {
         from: name,

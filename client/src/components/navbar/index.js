@@ -3,7 +3,6 @@ import './style.css';
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
-import { BrowserRouter as Router, } from 'react-router-dom';
 import Button from 'react-bootstrap/Button';
 
 function Navigation() {
@@ -22,7 +21,6 @@ function Navigation() {
                 <Nav.Link href="#about">About
                     </Nav.Link>
               </Nav.Item>
-              <Router>
                 <Nav.Item>
                   <Nav.Link href="#projects">Projects</Nav.Link>
                 </Nav.Item>
@@ -32,7 +30,6 @@ function Navigation() {
                 <Nav.Item>
                   <Nav.Link href="./assets/Resume.pdf" target="_blank">Resume</Nav.Link>
                 </Nav.Item>
-              </Router>
             </ul>
           </Navbar.Collapse>
         </Container>
