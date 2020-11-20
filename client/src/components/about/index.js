@@ -18,7 +18,7 @@ function About() {
                         <img alt='Ben Linton' src='./assets/Profile-Pic.jpg' className="img"></img>
                     </Col>
                     <Col>
-                        <p className='about-text'>Born in California but all over the Wasatch Front I discoverd programming
+                        <p className='about-text'>Born in California but raised all over the Wasatch Front I discoverd programming
                         and the world of computers in general when I lived in Korea and learned how to install Linux
                         onto a Chromebook. With my life forever changed I decided to presue the career field. </p>
                     </Col>

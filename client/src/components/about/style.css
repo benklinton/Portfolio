@@ -1,31 +1,32 @@
 .page-section {
-    padding: 6rem 0;
-  }
-  
+  padding: 6rem 0;
+}
+
+.page-section .page-section-heading {
+  font-size: 2.25rem;
+  line-height: 2rem;
+}
+
+@media (min-width: 992px) {
   .page-section .page-section-heading {
-    font-size: 2.25rem;
-    line-height: 2rem;
+    font-size: 3rem;
+    line-height: 2.5rem;
   }
-  
-  @media (min-width: 992px) {
-    .page-section .page-section-heading {
-      font-size: 3rem;
-      line-height: 2.5rem;
-    }
-  }
+}
 
 .img {
-    padding-top: 1.5rem;
-    display: block;
-    margin: auto;
-    margin-right: 100px;
+  padding-top: 1.5rem;
+  display: block;
+  margin: auto;
+  margin-right: 100px;
 }
 
 .about-text {
-    padding-top: 1rem;
-    display: block;
-    margin: auto;
-    margin-right: 120px;
+  font-family: 'Oxygen Mono', monospace;
+  padding-top: 1rem;
+  display: block;
+  margin: auto;
+  margin-right: 120px;
 }
 
 .bg-about {
