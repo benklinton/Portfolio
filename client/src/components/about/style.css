@@ -18,12 +18,14 @@
     padding-top: 1.5rem;
     display: block;
     margin: auto;
+    margin-right: 100px;
 }
 
 .about-text {
     padding-top: 1rem;
     display: block;
     margin: auto;
+    margin-right: 120px;
 }
 
 .bg-about {

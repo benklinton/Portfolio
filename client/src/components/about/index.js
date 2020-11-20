@@ -15,10 +15,12 @@ function About() {
                 </div>
                 <Row>
                     <Col>
-                        <img alt='Ben Linton' src='https://via.placeholder.com/200x200' className="img"></img>
+                        <img alt='Ben Linton' src='./assets/Profile-Pic.jpg' className="img"></img>
                     </Col>
                     <Col>
-                        <p className='about-text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Justo nec ultrices dui sapien eget mi. Nullam eget felis eget nunc lobortis mattis aliquam faucibus. Aliquet lectus proin nibh nisl condimentum id venenatis. Vitae et leo duis ut diam quam nulla porttitor. Aliquet sagittis id consectetur purus ut. Amet luctus venenatis lectus magna fringilla. Cras adipiscing enim eu turpis egestas pretium. Consectetur purus ut faucibus pulvinar elementum integer enim neque volutpat. Congue eu consequat ac felis. Nulla facilisi nullam vehicula ipsum a. Et malesuada fames ac turpis egestas integer eget aliquet nibh. Ornare lectus sit amet est placerat in egestas erat imperdiet. Id aliquet risus feugiat in ante.</p>
+                        <p className='about-text'>Born in California but all over the Wasatch Front I discoverd programming
+                        and the world of computers in general when I lived in Korea and learned how to install Linux
+                        onto a Chromebook. With my life forever changed I decided to presue the career field. </p>
                     </Col>
                 </Row>
             </Container>
