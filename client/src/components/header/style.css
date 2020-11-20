@@ -14,7 +14,7 @@
   }
   
   .masthead .masthead-subheading {
-    font-size: 1.25rem;
+    font-family: 'Oxygen Mono', monospace;
   }
   
   @media (min-width: 992px) {
