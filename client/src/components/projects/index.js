@@ -10,7 +10,7 @@ function Projects() {
     return (
         <section className='page-section portfolio'>
             <Container>
-                <h2 id='projects' className="page-section-heading text-center text-uppercase text-secondary mb-0">Projects</h2>
+                <h2 id='projects' className="page-section-heading text-center text-uppercase text-color mb-0">Projects</h2>
                 <div class="divider-custom">
                     <div class="divider-custom-line"></div>
                 </div>
