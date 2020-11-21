@@ -56,7 +56,7 @@ class Contact extends React.Component {
     render() {
         return (
             <>
-                <section className='page-section'>
+                <section className='page-section bg-about'>
                     <Container>
                         <h2 id='contact' className="page-section-heading text-center text-uppercase text-color mb-0">Contact Me</h2>
                         <div className="divider-custom">
