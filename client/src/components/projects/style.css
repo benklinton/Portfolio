@@ -28,11 +28,24 @@
 
   .flip-card-front {
     background-color: #bbb;
-    color: black;
   }
 
   .flip-card-back {
-    background-color: dodgerblue;
+    /* background-color: #16697a; */
+    background-color: #1f3c88;
     color: white;
     transform: rotateY(180deg);
+  }
+
+  .row-margin {
+      margin-left: 4.5rem;
+  }
+
+  .chip-shop {
+      margin-top: 2.5rem;
+  }
+
+  .margin-button {
+      margin-left: .2rem;
+      margin-right: .2rem;
   }
