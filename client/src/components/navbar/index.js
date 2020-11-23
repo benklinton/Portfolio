@@ -10,7 +10,7 @@ function Navigation() {
         <Nav className="navbar navbar-expand-lg navbar-dark bg-custom static-top">
         <Container>
           <Navbar.Brand>
-            <img src='https://via.placeholder.com/150x50?text=Logo' alt="Logo"></img>
+            <img alt='Logo' src='./assets/Logo.png'></img>
           </Navbar.Brand>
           <Button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
