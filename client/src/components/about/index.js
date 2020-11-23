@@ -15,7 +15,7 @@ function About() {
                 </div>
                 <Row>
                     <Col>
-                        <img alt='Ben Linton' src='./assets/Profile-Pic.jpg' className="img"></img>
+                        <img alt='Ben Linton' src='./assets/Profile-Pic.jpg' className="about-img"></img>
                     </Col>
                     <Col>
                         <p className='about-text'>I was raised all over the Wasatch Front, but I discovered programming

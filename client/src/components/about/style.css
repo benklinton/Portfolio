@@ -14,11 +14,19 @@
   }
 }
 
-.img {
+.about-img {
   padding-top: 1.5rem;
   display: block;
   margin: auto;
   margin-right: 100px;
+}
+
+@media (min-width: 300px) {
+  .about-img{
+    padding-top: 1.5rem;
+    display: block;
+    margin: auto;
+  }
 }
 
 .about-text {
@@ -27,6 +35,21 @@
   display: block;
   margin: auto;
   margin-right: 120px;
+}
+
+@media (min-width: 300px) {
+  .about-text {
+    padding-top: 1.5rem;
+    display: block;
+    margin: 1rem;
+    text-align: center;
+  }
+}
+
+@media (min-width: 1000px) {
+  .about-text {
+    text-align: left;
+  }
 }
 
 .bg-about {
