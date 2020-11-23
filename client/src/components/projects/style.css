@@ -48,3 +48,21 @@
       margin-left: .2rem;
       margin-right: .2rem;
   }
+
+  @media (max-width: 500px) {
+    .row-margin {
+      margin: 2.5rem;
+    }
+  }
+
+  @media (max-width: 400px) {
+    .row-margin {
+      margin: 1rem;
+    }
+  }
+
+ @media (max-width: 320px) {
+    .row-margin {
+     margin: auto;
+    }
+  }
