@@ -24,7 +24,7 @@ transporter.verify((error) => {
 });
 
 app.listen(PORT, () => {
-    console.log('listening on PORT: ${PORT}')
+    console.log(`listening on PORT: ${PORT}`)
 });
 
 app.use(express.json());
