@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 var nodemailer = require('nodemailer');
 var path = require('path');
-var PORT = 5000;
+var PORT = process.env.PORT || 8080;
 
 var transporter = nodemailer.createTransport({
     host: "smtp.gmail.com",
@@ -24,7 +24,7 @@ transporter.verify((error) => {
 });
 
 app.listen(PORT, () => {
-    console.log('listening at http://localhost:5000')
+    console.log('listening on PORT: ${PORT}')
 });
 
 app.use(express.json());
