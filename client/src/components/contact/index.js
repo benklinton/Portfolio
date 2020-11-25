@@ -38,11 +38,12 @@ class Contact extends React.Component {
             url: '/send',
             data: this.state
         }).then((response) => {
+            console.log(response.data.status)
             if (response.data.status === 'sucess') {
                 alert('Message Sent')
                 this.resetForm();
             }
-            else {
+            else if (response.data.status === 'fail') {
                 alert('Message not sent, please try again')
             }
         })
