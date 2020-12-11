@@ -5,7 +5,7 @@ var path = require('path');
 var PORT = process.env.PORT || 8080;
 
 var transporter = nodemailer.createTransport({
-    host: "smtp.yahoo.com",
+    host: "smtp.mail.yahoo.com",
     port: 587,
     auth: {
         user: process.env.USERNAME,
