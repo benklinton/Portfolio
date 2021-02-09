@@ -5,7 +5,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
-import axios from 'axios';
+import emailjs from 'emailjs-com';
 
 class Contact extends React.Component {
 
@@ -33,20 +33,14 @@ class Contact extends React.Component {
     submitEmail(e) {
         e.preventDefault();
         console.log(this.state);
-        axios({
-            method: "POST",
-            url: '/send',
-            data: this.state
-        }).then((response) => {
-            console.log(response.data.status)
-            if (response.data.status === 'sucess') {
-                alert('Message Sent')
-                this.resetForm();
-            }
-            else if (response.data.status === 'fail') {
-                alert('Message not sent, please try again')
-            }
-        })
+        console.log(e.target)
+
+        emailjs.sendForm('service_yg018q6', 'template_ko4519n', this.state, 'user_D7iPC5YD66U3MPpgP0irm')
+       .then((result) => {
+           console.log(result.text);
+       }, (error) => {
+           console.log(error.text);
+       })
 
     }
 
@@ -65,7 +59,7 @@ class Contact extends React.Component {
                         </div>
                         <Row>
                             <Col lg={8} className="mx-auto">
-                                <Form onSubmit={this.submitEmail.bind(this)} method="POST">
+                                <Form onSubmit={this.submitEmail.bind(this)}>
                                     <Form.Group className="form-group floating-label-form-group mb-0 pb-2">
                                         <Form.Label>Name</Form.Label>
                                         <Form.Control type='text' placeholder='Name'
