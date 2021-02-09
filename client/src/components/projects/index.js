@@ -40,7 +40,7 @@ function Projects() {
                                     <div class="flip-card-back">
                                         <h1>Soffe Doodles</h1>
                                         <p>A multi page website for a local dog breeders business</p>
-                                        <Button target="_blank" variant="outline-info" href="http://soffedoodles.net" className='margin-button'>Website</Button>
+                                        <Button target="_blank" variant="outline-info" href="http://example.soffedoodles.net" className='margin-button'>Website</Button>
                                         <Button target="_blank" variant="outline-info" href="https://github.com/benklinton/Soffe-Doodles" className='margin-button'>Github</Button>
                                     </div>
                                 </div>
