@@ -38,11 +38,14 @@ class Contact extends React.Component {
 
         emailjs.send('service_yg018q6', 'template_ko4519n', this.state)
        .then((result) => {
+           alert('Message Sent!')
            console.log(result.text);
        }, (error) => {
+           alert('Something went wrong... try again later')
            console.log(error.text);
        })
 
+        this.resetForm()
     }
 
     resetForm() {
