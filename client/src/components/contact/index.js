@@ -33,9 +33,10 @@ class Contact extends React.Component {
     submitEmail(e) {
         e.preventDefault();
         console.log(this.state);
-        console.log(e.target)
 
-        emailjs.sendForm('service_yg018q6', 'template_ko4519n', this.state, 'user_D7iPC5YD66U3MPpgP0irm')
+        emailjs.init("user_D7iPC5YD66U3MPpgP0irm");
+
+        emailjs.send('service_yg018q6', 'template_ko4519n', this.state)
        .then((result) => {
            console.log(result.text);
        }, (error) => {
@@ -59,7 +60,7 @@ class Contact extends React.Component {
                         </div>
                         <Row>
                             <Col lg={8} className="mx-auto">
-                                <Form onSubmit={this.submitEmail.bind(this)}>
+                                <Form id='contact-form' onSubmit={this.submitEmail.bind(this)}>
                                     <Form.Group className="form-group floating-label-form-group mb-0 pb-2">
                                         <Form.Label>Name</Form.Label>
                                         <Form.Control type='text' placeholder='Name'
