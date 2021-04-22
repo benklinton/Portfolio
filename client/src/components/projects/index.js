@@ -25,7 +25,7 @@ function Projects() {
                                     <div class="flip-card-back">
                                         <h1>Chip Shop</h1>
                                         <p>A simple one page website with info about the small business Chip Shop </p>
-                                        <Button target="_blank" variant="outline-info" href="http://www.chipshoprepair.com" className='margin-button'>Website</Button>
+                                        <Button target="_blank" variant="outline-info" href="http://example.chipshoprepair.com" className='margin-button'>Website</Button>
                                         <Button target="_blank" variant="outline-info" href="https://github.com/benklinton/Chip-Shop" className='margin-button'>Github</Button>
                                     </div>
                                 </div>
