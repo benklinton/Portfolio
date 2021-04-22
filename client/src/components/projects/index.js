@@ -11,18 +11,18 @@ function Projects() {
         <section className='page-section portfolio'>
             <Container>
                 <h2 id='projects' className="page-section-heading text-center text-uppercase text-color mb-0">Projects</h2>
-                <div class="divider-custom">
-                    <div class="divider-custom-line"></div>
+                <div className="divider-custom">
+                    <div className="divider-custom-line"></div>
                 </div>
                 <Row className="row-margin">
                     <CardDeck>
                         <Card>
-                            <div class="flip-card">
-                                <div class="flip-card-inner">
-                                    <div class="flip-card-front">
+                            <div className="flip-card">
+                                <div className="flip-card-inner">
+                                    <div className="flip-card-front">
                                         <img src="./assets/Chip-Shop-Logo.png" alt="Chip Shop Logo" className="chip-shop"></img>
                                     </div>
-                                    <div class="flip-card-back">
+                                    <div className="flip-card-back">
                                         <h1>Chip Shop</h1>
                                         <p>A simple one page website with info about the small business Chip Shop </p>
                                         <Button target="_blank" variant="outline-info" href="http://example.chipshoprepair.com" className='margin-button'>Website</Button>
@@ -32,12 +32,12 @@ function Projects() {
                             </div>
                         </Card>
                         <Card>
-                            <div class="flip-card">
-                                <div class="flip-card-inner">
-                                    <div class="flip-card-front">
+                            <div className="flip-card">
+                                <div className="flip-card-inner">
+                                    <div className="flip-card-front">
                                         <img src="./assets/Soffe-Doodles-Logo.png" alt="Soffe-Doodles Logo"></img>
                                     </div>
-                                    <div class="flip-card-back">
+                                    <div className="flip-card-back">
                                         <h1>Soffe Doodles</h1>
                                         <p>A multi page website for a local dog breeders business</p>
                                         <Button target="_blank" variant="outline-info" href="http://example.soffedoodles.net" className='margin-button'>Website</Button>
@@ -47,12 +47,12 @@ function Projects() {
                             </div>
                         </Card>
                         <Card>
-                            <div class="flip-card">
-                                <div class="flip-card-inner">
-                                    <div class="flip-card-front">
+                            <div className="flip-card">
+                                <div className="flip-card-inner">
+                                    <div className="flip-card-front">
                                         <img src="https://via.placeholder.com/200x200?text=Coming+Soon" alt="project"></img>
                                     </div>
-                                    <div class="flip-card-back">
+                                    <div className="flip-card-back">
                                         <h1>SoopsArt</h1>
                                         <p>A business website for the display and sell of the works of Sophie Gifford </p>
                                         <p>Currently in Development</p>
